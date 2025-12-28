@@ -1,0 +1,14 @@
+# UV Configuration
+# This file configures uv for workspace-level settings
+
+# Index configuration (optional - for private registries)
+# [[index]]
+# url = "https://pypi.org/simple"
+# default = true
+
+# Override settings
+[pip]
+index-url = "https://pypi.org/simple"
+
+# Cache settings (optional)
+# cache-dir = ".uv-cache"
